@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    trailingSlash: false, // Change this to `false`
+    trailingSlash: false,  // Important for Vercel
     images: {
-        unoptimized: true, // Disables image optimization for static export
+        unoptimized: true, 
     },
     eslint: {
-        ignoreDuringBuilds: true, // Ignores ESLint errors during the build process
+        ignoreDuringBuilds: true, 
     },
 };
 export default nextConfig;
